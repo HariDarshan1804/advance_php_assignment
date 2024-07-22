@@ -4,7 +4,7 @@
 $db_host = "localhost";
 $db_username = "root";
 $db_password = "";
-$db_name = "vidhi";
+$db_name = "hari";
 
 
 function executequery($sql){
@@ -14,7 +14,7 @@ function executequery($sql){
     global $db_password;
     global $db_name;
    
-    $db=new mysqli("localhost","root","","vidhi");
+    $db=new mysqli("localhost","root","","hari");
     if ($db->connect_error) {
         die("Connection failed: " . $db->connect_error);
     }
